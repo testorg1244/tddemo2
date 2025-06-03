@@ -9,5 +9,12 @@
   "githubRunner": "ubuntu-latest",
   "githubRunnerShell": "pwsh",
   "artifact": "////latest",
-  "cacheImageName": ""
+  "cacheImageName": "",
+  "environments": [
+    "QA"
+  ],
+  "DeployToQA": {
+    "Projects": "*",
+    "ContinuousDeployment": true
+  }
 }
